@@ -1,0 +1,67 @@
+body {
+        height: 100vh;
+
+        display: grid;
+        place-items: center;
+}
+
+.container {
+        width: 900px;
+}
+
+.nav {
+        background-color: #f1f1f1;
+        border: 1px solid #ccc;
+         display: flex;
+         padding: 0;
+         margin: 0;
+}
+
+.nav-item {
+        list-style-type: none;
+}
+
+.tablinks {
+        border: 0;
+        font-size: 16px;
+        padding: 15px 20px;
+        cursor: pointer;
+
+        transition: backgroud-color .3s ease-in-out;
+}
+
+.tablinks:hover {
+        background-color: #ddd;
+}
+
+                /*js work here*/
+.tablinks.active{
+        background-color: #ccc;
+}
+
+
+
+.tab-content {
+        background-color: #ccc;
+}
+
+
+.tab-pane {
+        border: 1px solid #ccc;
+        border-top: none;
+        padding: 5px 15px;
+
+         display: none;  /*js work here */
+}
+
+.btn-close {
+        font-size: 30px;
+        float: right;
+        cursor: pointer;
+        transition: color .3s ease-in;
+
+}
+
+.btn-close:hover {
+        color: red;
+}
